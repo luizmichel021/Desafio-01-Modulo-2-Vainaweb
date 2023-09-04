@@ -1,7 +1,6 @@
-function eu(nome, idade, estilomusical ){
+function eu(nome, idade, musica){
 
-    console.log(`Meu nome e ${} minha idade e ${} e meu estilo musical preferido e ${}`)
+    console.log(`Meu nome e ${nome} minha idade e ${idade} e meu estilo musical preferido e ${musica}`);
 }
 
-console.log(eu(`Michel`, 23, `RAP`))
-console.log(eu)
+eu("Michel", 23, "RAP");
